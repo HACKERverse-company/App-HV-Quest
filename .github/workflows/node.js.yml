@@ -26,6 +26,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: sudo rm -rf /var/www/html/*
-    - run: sudo cp -r /home/ubuntu/actions-runner/_work/HACKERverse-Landing-Page/HACKERverse-Landing-Page/dist/* /var/www/html/
+    - run: sudo cp -r /home/ubuntu/actions-runner/_work/App-HV-Quest/App-HV-Quest/dist/* /var/www/html/
     - run: sudo service apache2 restart    
 
