@@ -3,6 +3,7 @@ import Procyon from './Componens/Procyon/MainLayout'
 import Senteon from './Componens/Senteon/MainLayout'
 import Heimdall from './Componens/Heimdall/MainLayout'
 import Index from "./Componens/Home/Index";
+import HealthCheck from "./Health";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/health" element={<HealthCheck />} />
           <Route path="/Procyon" element={<Procyon />} />
           <Route path="/Senteon" element={<Senteon />} />
           <Route path="/Heimdall" element={<Heimdall />} />
