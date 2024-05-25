@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt  } from '@fortawesome/free-solid-svg-icons';
 
 const RightPane = () => {
   const [activeTab, setActiveTab] = useState('admin');
@@ -51,7 +53,7 @@ const RightPane = () => {
           >
             Heimdall
             <a href="https://procyon-guacamole-5gz4c7f7qi.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs?username=guacadmin&password=guacadmin" target="_blank">
-              <img src='https://app.hackerverse.quest/assets/kikrr/img/window-extract.png' className='h-[11px] w-[11px] ml-2' alt='Admin Icon' />
+              <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
             </a>
           </button>
           {/* <button

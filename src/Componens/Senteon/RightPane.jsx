@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 const RightPane = () => {
   const [activeTab, setActiveTab] = useState('admin');
@@ -51,7 +53,7 @@ const RightPane = () => {
           >
             Kali
             <a href="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs" target="_blank">
-              <img src='https://app.hackerverse.quest/assets/kikrr/img/window-extract.png' className='h-[11px] w-[11px] ml-2' alt='Admin Icon' />
+            <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
             </a>
           </button>
           {/* <button

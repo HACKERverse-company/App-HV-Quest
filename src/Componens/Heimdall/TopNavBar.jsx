@@ -8,7 +8,7 @@ const TopNavBar = () => {
   return (
     <div className="flex justify-between items-center p-4  text-white -mt-4">
       <div className="flex items-center space-x-2">
-        <img src={HEIMDALL} alt="Icon" className="h-24 w-24 ml-2 mt-1" />
+        <img src={HEIMDALL} alt="Icon" className="h-16 w-auto ml-2 mt-4" />
       </div>
       <button className="bg-[#50deff]   text-black text-sm py-[6px] px-6 rounded">
       <FontAwesomeIcon icon={faArrowLeft} className="mr-3" />

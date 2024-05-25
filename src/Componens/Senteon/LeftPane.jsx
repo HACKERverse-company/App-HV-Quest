@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlay, faPause, faStop, faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faPlay, faPause, faStop, faArrowLeft, faArrowRight,faClock } from '@fortawesome/free-solid-svg-icons';
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import Tabs from './Tabs';
@@ -135,7 +135,7 @@ const LeftPane = () => {
           </button>
         </div>
         <div className="flex items-center text-white space-x-3">
-          <img src='https://app.hackerverse.quest/assets/kikrr/img/Icon-material-timer.svg' className='h-[20px] w-[20px]' />
+        <FontAwesomeIcon icon={faClock }  className='ml-2 h-[19px] w-[19px] '/>
           <span className='font-semibold text-md'>57:50</span>
         </div>
       </div>
