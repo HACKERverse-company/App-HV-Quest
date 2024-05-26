@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Procyon from './Componens/Procyon/MainLayout'
-import Senteon from './Componens/Senteon/MainLayout'
-import Heimdall from './Componens/Heimdall/MainLayout'
-import Index from "./Componens/Home/Index";
+import Procyon from './Pages/Procyon/MainLayout'
+import Senteon from './Pages/Senteon/MainLayout'
+import Heimdall from './Pages/Heimdall/MainLayout'
+import Index from "./Pages/Home/Index";
 import HealthCheck from "./Health";
 
 function App() {

@@ -4,7 +4,6 @@ import { faPlay, faPause, faStop, faArrowLeft, faArrowRight,faClock   } from '@f
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import Tabs from './Tabs';
-import Video from '../../assets/slideshow.mp4'
 
 const LeftPane = () => {
   const [activeTab, setActiveTab] = useState('introduction');
@@ -153,9 +152,7 @@ const LeftPane = () => {
             </p>
             <div>
             <div className="flex flex-wrap justify-center sm:justify-start gap-4 ml-4 mt-12">
-            <video controls className="w-full border-2 border-blue-400 rounded-lg" src={Video} type="video/mp4" >
-                  Your browser does not support the video tag.
-                </video>
+            <iframe src="https://drive.google.com/file/d/1mgMHd8j3TPBF_cEDrccGwqHbDtYTJwhK/preview" className="w-full border-2 border-blue-400 rounded-lg" allow="autoplay"></iframe>
             </div>
           </div>
           </div>
