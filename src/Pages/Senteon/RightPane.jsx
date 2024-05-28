@@ -13,7 +13,7 @@ const RightPane = () => {
           <div className="flex flex-col items-center justify-center h-full w-full rounded-md">
             <iframe
               title="Guacamole Server"
-              src="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs"
+              src="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs?username=guacadmin&password=guacadmin"
               className="h-full w-full border-0"
             />
           </div>
@@ -52,7 +52,7 @@ const RightPane = () => {
             onClick={() => setActiveTab('admin')}
           >
             Kali
-            <a href="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs" target="_blank">
+            <a href="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs?username=guacadmin&password=guacadmin" target="_blank">
             <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
             </a>
           </button>
