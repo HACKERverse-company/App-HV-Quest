@@ -23,7 +23,7 @@ const RightPane = () => {
           <div className="flex flex-col items-center justify-center h-full w-full rounded-md">
             <iframe
               title="Guacamole Server"
-              src="app.senteon.co"
+              src="https://senteon.co"
               className="h-full w-full border-0"
             />
           </div>
@@ -56,15 +56,15 @@ const RightPane = () => {
             <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
             </a>
           </button>
-          {/* <button
+          <button
             className={`tab flex items-center -ml-2 py-2 text-sm rounded-t-lg ${activeTab === 'developer' ? 'bg-black text-white' : 'bg-[#0d0d0d] text-gray-400'}`}
             onClick={() => setActiveTab('developer')}
           >
             Senteon
-            <a href="app.senteon.co" target="_blank">
-              <img src='https://app.hackerverse.quest/assets/kikrr/img/window-extract.png' className='h-[11px] w-[11px] ml-2' alt='Admin Icon' />
+           <a href="https://senteon.co/" target="_blank">
+            <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
             </a>
-          </button> */}
+          </button>
 
         </div>
         <div className="content bg1 -mt-6 p-8 rounded-b-lg rounded-tr-lg h-[500px]">

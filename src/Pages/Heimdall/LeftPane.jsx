@@ -123,7 +123,7 @@ const LeftPane = () => {
             Listen up! Customers are abandoning your slow website in droves. Your competitor is stealing the show with lightning-fast transactions. Don't let your business become yesterday's news! Heimdall Data supercharges your web applications by making databases scream, slashing costs, and safeguarding them with fortress-like security.            </p>
             <div>
               <div className="flex flex-wrap justify-center sm:justify-center  gap-4 ml-4 mt-12">
-              <iframe src="https://drive.google.com/file/d/1pjC_yM9mDoa2z9wLmwg5IXif-UKY2mTH/preview" className="w-full border-2 border-red-500 rounded-lg"  allow="autoplay"></iframe>
+              <iframe src="https://drive.google.com/file/d/1pjC_yM9mDoa2z9wLmwg5IXif-UKY2mTH/preview" className="w-full   rounded-lg"  allow="autoplay"></iframe>
 
               </div>
             </div>

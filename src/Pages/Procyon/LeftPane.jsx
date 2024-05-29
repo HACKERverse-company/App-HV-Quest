@@ -152,7 +152,7 @@ const LeftPane = () => {
             </p>
             <div>
             <div className="flex flex-wrap justify-center sm:justify-start gap-4 ml-4 mt-12">
-            <iframe src="https://drive.google.com/file/d/1mgMHd8j3TPBF_cEDrccGwqHbDtYTJwhK/preview" className="w-full border-2 border-blue-400 rounded-lg" allow="autoplay"></iframe>
+            <iframe src="https://drive.google.com/file/d/1mgMHd8j3TPBF_cEDrccGwqHbDtYTJwhK/preview" className="w-full rounded-lg" allow="autoplay"></iframe>
             </div>
           </div>
           </div>
