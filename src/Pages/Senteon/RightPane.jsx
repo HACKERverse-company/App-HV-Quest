@@ -45,7 +45,7 @@ const RightPane = () => {
 
   return (
     <>
-      <div className="flex-1 bg p-4 overflow-auto rounded-lg h-full mr-3 -mt-2">
+      <div className="flex-1 bg p-4 overflow-auto rounded-lg h-screen mr-3 -mt-2">
         <div className="tabs flex p-2 rounded-t-lg">
           <button
             className={`tab flex items-center -ml-2 py-2 text-sm rounded-t-lg ${activeTab === 'admin' ? 'bg-black text-white' : 'bg-[#0d0d0d] text-gray-400'}`}
@@ -67,7 +67,7 @@ const RightPane = () => {
           </button>
 
         </div>
-        <div className="content bg1 -mt-6 p-8 rounded-b-lg rounded-tr-lg h-[500px]">
+        <div className="content bg1 -mt-6 p-4 rounded-b-lg rounded-tr-lg h-[87vh]">
           {renderContent()}
         </div>
       </div>

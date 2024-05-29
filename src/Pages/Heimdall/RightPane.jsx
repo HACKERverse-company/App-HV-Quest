@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt  } from '@fortawesome/free-solid-svg-icons';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 const RightPane = () => {
   const [activeTab, setActiveTab] = useState('admin');
-
 
   const renderContent = () => {
     switch (activeTab) {
@@ -45,7 +44,7 @@ const RightPane = () => {
 
   return (
     <>
-      <div className="flex-1 bg p-4 overflow-auto rounded-lg h-full mr-3 -mt-2">
+      <div className="flex-1 bg p-4 overflow-auto rounded-lg h-screen mr-3 -mt-2">
         <div className="tabs flex p-2 rounded-t-lg">
           <button
             className={`tab flex items-center -ml-2 py-2 text-sm rounded-t-lg ${activeTab === 'admin' ? 'bg-black text-white' : 'bg-[#0d0d0d] text-gray-400'}`}
@@ -53,10 +52,11 @@ const RightPane = () => {
           >
             Heimdall
             <a href="https://procyon-guacamole-5gz4c7f7qi.hackerverse.quest/guacamole/#/client/MQBjAG15c3Fs?username=guacadmin&password=guacadmin" target="_blank">
-              <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
+              <FontAwesomeIcon icon={faExternalLinkAlt} className='ml-2 h-[12px] w-[12px] mb-[1px]' />
             </a>
           </button>
-          {/* <button
+          {/* Uncomment the following code if needed
+          <button
             className={`tab flex items-center -ml-2 py-2 text-sm rounded-t-lg ${activeTab === 'developer' ? 'bg-black text-white' : 'bg-[#0d0d0d] text-gray-400'}`}
             onClick={() => setActiveTab('developer')}
           >
@@ -71,7 +71,7 @@ const RightPane = () => {
             <img src='https://app.hackerverse.quest/assets/kikrr/img/window-extract.png' className='h-[11px] w-[11px] ml-2' alt='Demo Icon' />
           </button> */}
         </div>
-        <div className="content bg1 -mt-6 p-8 rounded-b-lg rounded-tr-lg h-[500px]">
+        <div className="content bg1 -mt-6 p-4 rounded-b-lg rounded-tr-lg h-[87vh]">
           {renderContent()}
         </div>
       </div>
