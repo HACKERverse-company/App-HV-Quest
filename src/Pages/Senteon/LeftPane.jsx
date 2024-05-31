@@ -167,7 +167,7 @@ const LeftPane = () => {
                   key={index}
                   src={image}
                   alt="Diagrams"
-                  className="h-24 w-24 cursor-pointer"
+                  className="h-full w-36 cursor-pointer"
                   onClick={() => openModal(image)}
                 />
               ))}

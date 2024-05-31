@@ -4,6 +4,8 @@ import { faPlay, faPause, faStop, faArrowLeft, faArrowRight,faClock   } from '@f
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import Tabs from './Tabs';
+import Procyon1 from '../../assets/PROCYON1.jpeg'
+import Procyon2 from '../../assets/PROCYON2.png'
 
 const LeftPane = () => {
   const [activeTab, setActiveTab] = useState('introduction');
@@ -12,8 +14,8 @@ const LeftPane = () => {
   const [taskStep, setTaskStep] = useState(1);
 
   const images = [
-    "https://app.hackerverse.quest/assets/kikrr/img/procyon/imgpsh_fullsize_anim.jpeg",
-    "https://app.hackerverse.quest/assets/kikrr/img/procyon/imgpsh_fullsize_anim.jpeg"
+    Procyon1,
+    Procyon2
   ];
 
   const handleTabClick = (tab) => {
@@ -165,7 +167,7 @@ const LeftPane = () => {
                   key={index}
                   src={image}
                   alt="Diagrams"
-                  className="h-24 w-24 cursor-pointer"
+                  className="h-full w-36  cursor-pointer"
                   onClick={() => openModal(image)}
                 />
               ))}
