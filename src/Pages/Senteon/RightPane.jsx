@@ -23,7 +23,7 @@ const RightPane = () => {
           <div className="flex flex-col items-center justify-center h-full w-full rounded-md">
             <iframe
               title="Guacamole Server"
-              src="https://senteon.co"
+              src="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MwBjAG15c3Fs?username=guacadmin&password=guacadmin"
               className="h-full w-full border-0"
             />
           </div>
@@ -33,7 +33,7 @@ const RightPane = () => {
           <div className="flex flex-col items-center justify-center h-full w-full rounded-md">
             <iframe
               title="Guacamole Server"
-              src="https://info.procyon.ai/demo"
+              src="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MwBjAG15c3Fs?username=guacadmin&password=guacadmin"
               className="h-full w-full border-0"
             />
           </div>
@@ -61,7 +61,7 @@ const RightPane = () => {
             onClick={() => setActiveTab('developer')}
           >
             Senteon
-           <a href="https://senteon.co/" target="_blank">
+           <a href="https://literate-ferret-40jiw190.hackerverse.quest/guacamole/#/client/MwBjAG15c3Fs?username=guacadmin&password=guacadmin" target="_blank">
             <FontAwesomeIcon icon={faExternalLinkAlt}  className='ml-2 h-[12px] w-[12px] mb-[1px]'/>
             </a>
           </button>
